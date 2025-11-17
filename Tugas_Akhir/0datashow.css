@@ -1,0 +1,38 @@
+body{
+   
+
+    display: flex;
+    min-height: 80vh;   
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column; 
+   
+    width: 100%;
+    margin: 0; 
+}
+
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+  
+    width: 50%;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #292929;
+    font-size: 14px;
+    color: #555;
+    background: #fafafa;
+    margin-top: 40px;
+}
+

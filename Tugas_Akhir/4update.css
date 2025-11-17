@@ -1,0 +1,50 @@
+body {
+    background-image: url("zsummergif.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.container {
+
+    background-color: rgb(255, 255, 255, 0.8);
+
+    padding: 30px 40px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
+    width: 100%;
+    max-width: 505px; 
+    text-align: center;
+    margin-top: 100px;
+    color: #000000;
+}
+
+
+
+.container p a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="password"] {
+    border:1px, solid black ;
+    border-radius: 5px;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #292929; 
+    font-size: 14px;
+    color: #555;
+    background: #fafafa;
+    margin-top: 190px;
+}

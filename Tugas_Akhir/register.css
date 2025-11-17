@@ -1,0 +1,71 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url('zgiv3.gif');
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    display: flex; 
+    flex-direction: column; 
+
+    
+    min-height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    
+    padding-left: 10px;
+    max-width: 100px;
+    align-content: center;
+
+    background-color: rgba(255, 255, 255, 0.8);
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+
+    text-align: center;
+    color: #000000;
+    margin-top: 80px;
+}
+
+form{
+    text-align: left;
+
+}
+
+/* --- Perbaikan Border Input --- */
+input[type="text"], input[type="password"] {
+    border: 1px solid black; 
+    border-radius: 5px;
+    margin-left: 10px
+}
+
+.container p a {
+    color: #ab1212;
+    font-weight: bold;
+    
+}
+
+
+.footer {
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #292929; /* garis atas */
+    font-size: 14px;
+    color: #555;
+    background: #fafafa;
+    margin-top: 80px;
+}

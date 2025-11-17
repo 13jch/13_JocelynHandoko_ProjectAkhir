@@ -1,0 +1,50 @@
+body {
+    /* Pengaturan Flexbox untuk Centering Kontainer Login */
+    background-image: url("zbgdata.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; /* Center Horizontal */
+    align-items: center; /* Center Vertical */
+
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.container {
+    /* Membuat Kotak Login */
+    background-color: rgb(255, 255, 255,0.8); /* Warna abu-abu yang mirip di gambar */
+    padding: 50px 40px; /* Padding di sekitar konten */
+    border-radius: 10px; /* Sudut membulat */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Efek bayangan */
+    width: 100%;
+    max-width: 350px; /* Batas lebar agar kotak tidak terlalu besar */
+    text-align: center; /* Menengahkan H2 dan paragraf */
+    margin-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+}
+
+
+
+.container p a {
+    color: #ab1212;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="password"] {
+    border:1px, solid black ;
+    border-radius: 5px;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #292929; /* garis atas */
+    font-size: 14px;
+    color: #555;
+    background: #fafafa;
+    margin-top: 60px;
+}
